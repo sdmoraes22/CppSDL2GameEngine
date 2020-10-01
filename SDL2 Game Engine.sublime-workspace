@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"m_Fra",
+				"m_FrameCount"
+			],
+			[
+				"fl",
+				"flip"
+			],
+			[
+				"M",
+				"m_Flip"
+			],
+			[
+				"st",
+				"struct\tstruct"
+			],
+			[
 				"str",
 				"string"
 			],
@@ -53,12 +69,16 @@
 	},
 	"file_history":
 	[
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/src/TextureManager.cpp",
 		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/TextureManager.h",
-		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/Transform.h",
-		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/IObject.h",
-		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/GameObject.h",
 		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/src/Engine.cpp",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/src/Warrior.cpp",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/Warrior.h",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/Character.h",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/GameObject.h",
 		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/Engine.h",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/IObject.h",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/Transform.h",
 		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/Vector2D.h",
 		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/src/Core/Engine.h",
 		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/src/Core/Engine.cpp",
@@ -88,6 +108,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"* ",
+			"=0",
+			"int",
+			"=0",
+			"m_",
 			";",
 			"double"
 		],
@@ -156,16 +181,36 @@
 		"selected_items":
 		[
 			[
-				"Trans",
-				"include/Transform.h"
+				"ng",
+				"src/Engine.cpp"
 			],
 			[
 				"Tex",
+				"src/TextureManager.cpp"
+			],
+			[
+				"Text",
 				"include/TextureManager.h"
+			],
+			[
+				"IO",
+				"include/IObject.h"
 			],
 			[
 				"Engine",
 				"src/Engine.cpp"
+			],
+			[
+				"",
+				"include/Engine.h"
+			],
+			[
+				"Game",
+				"include/GameObject.h"
+			],
+			[
+				"Trans",
+				"include/Transform.h"
 			],
 			[
 				"Engi",

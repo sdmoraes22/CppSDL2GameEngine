@@ -1,8 +1,9 @@
 #include "Engine.h"
 #include "TextureManager.h"
-#include "Transform.h"
+#include "Warrior.h"
 	
 Engine* Engine::s_Instance = nullptr;
+Warrior* player = nullptr;
 
 bool Engine::Init()
 {
@@ -28,7 +29,9 @@ bool Engine::Init()
 		return false;
 	}
 
-	TextureManager::GetInstance()->Load("tree", "assets/tree.png");
+	TextureManager::GetInstance()->Load("player", "assets/Idle.png");
+
+	player = new Warrior(new Properties("player", 320, 128, 64, 64));
 
 	Transform tf;
 	tf.Log();
@@ -60,7 +63,7 @@ void Engine::Render()
 	SDL_SetRenderDrawColor(m_Renderer, 124, 218, 254, 255);
 	SDL_RenderClear(m_Renderer);
 
-	TextureManager::GetInstance()->Draw("tree", 100, 100, 347, 465);
+	player->Draw();
 	SDL_RenderPresent(m_Renderer);
 }
 
