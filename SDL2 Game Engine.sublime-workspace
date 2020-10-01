@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"str",
+				"string"
+			],
+			[
 				"vec",
 				"Vector2f"
 			],
@@ -49,6 +53,13 @@
 	},
 	"file_history":
 	[
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/TextureManager.h",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/Transform.h",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/IObject.h",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/GameObject.h",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/src/Engine.cpp",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/Engine.h",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/include/Vector2D.h",
 		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/src/Core/Engine.h",
 		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/src/Core/Engine.cpp",
 		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/Engine.o",
@@ -145,15 +156,35 @@
 		"selected_items":
 		[
 			[
+				"Trans",
+				"include/Transform.h"
+			],
+			[
+				"Tex",
+				"include/TextureManager.h"
+			],
+			[
+				"Engine",
+				"src/Engine.cpp"
+			],
+			[
 				"Engi",
 				"include/Engine.h"
 			],
 			[
-				"engi",
-				"src/Engine.cpp"
+				"Vec",
+				"include/Vector2D.h"
 			],
 			[
 				"Engin",
+				"src/Engine.cpp"
+			],
+			[
+				".h",
+				"include/TextureManager.h"
+			],
+			[
+				"engi",
 				"src/Engine.cpp"
 			],
 			[
