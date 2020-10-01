@@ -1,6 +1,12 @@
 #ifndef ENGINE_H
 #define ENGINE_H
 
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_image.h"
+
+#define SCREEN_WIDTH  960
+#define SCREEN_HEIGHT 640
+
 class Engine
 {
 
@@ -15,10 +21,13 @@ public:
 	void Events();
 
 	inline bool IsRunning() { return m_IsRunning; }
+	inline SDL_Renderer* GetRenderer() { return m_Renderer; }
 
 private:
 	Engine(){ }
 	bool m_IsRunning;
+	SDL_Renderer* m_Renderer;
+	SDL_Window* m_Window;
 	static Engine* s_Instance;
 };
 

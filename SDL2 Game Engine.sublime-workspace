@@ -49,6 +49,9 @@
 	},
 	"file_history":
 	[
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/src/Core/Engine.h",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/src/Core/Engine.cpp",
+		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/Engine.o",
 		"/home/usuario/Documentos/Cristiano/Dev/SDL Game Engine/main.o",
 		"/home/usuario/Documentos/Cristiano/Dev/SDL Platformer/src/Math.cpp",
 		"/home/usuario/Documentos/Cristiano/Dev/SDL Platformer/src/Entity.cpp",
@@ -141,6 +144,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"Engi",
+				"include/Engine.h"
+			],
+			[
+				"engi",
+				"src/Engine.cpp"
+			],
+			[
+				"Engin",
+				"src/Engine.cpp"
+			],
+			[
+				"eng",
+				"include/Engine.h"
+			],
 			[
 				"engine.h",
 				"src/Core/Engine.h"
