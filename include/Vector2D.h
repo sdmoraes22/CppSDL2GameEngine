@@ -31,6 +31,7 @@ public:
 		return Vector2D(X * scalar, Y * scalar);
 	}
 
+
 	void Log(std::string msg)
 	{
 		std::cout << msg << "(X,Y) = " << X << " " << Y << std::endl;

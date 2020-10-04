@@ -3,6 +3,7 @@
 
 #include "Character.h"
 #include "Animation.h"
+#include "RigidBody.h"
 
 class Warrior : public Character
 {
@@ -14,10 +15,8 @@ public:
 	virtual void Update(float dt);
 
 private:
-	// int m_Row, m_Frame, m_FrameCount;
-	// int m_AnimSpeed;
+	RigidBody* m_RigidBody;
 	Animation* m_Animation;
-	
 };
 
 #endif
